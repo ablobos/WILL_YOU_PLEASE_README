@@ -2,6 +2,7 @@ const inquirer = require('inquirer')
 
 console.log('READMEGen is running fine')
 
+// app questions
 const questions = [
     {
     type: 'input',
@@ -20,23 +21,55 @@ const questions = [
 },
 {
     type: 'input',
-    name: 'installation, special info, and test instructions',
-    message: 'Describe the installation instructions, contribution guidelines, and testing instructions'
+    name: 'installation',
+    message: 'Describe the Installation Instructions'
+},
+{
+    type: 'input',
+    name: 'usage',
+    message: 'Describe Project Usage'
+},
+{
+    type: 'input',
+    name: 'contribution',
+    message: 'Contribution Info'
+},
+{
+    type: 'input',
+    name: 'test instructions',
+    message: 'Test Instructions'
 },
 {
         type: 'checkbox',
+        name: 'developer languages',
         message: 'Which language are you most familiar with?',
-        options: ['HTML', 'CSS', 'JavaScript', 'Python', 'AWS', 'C']
+        choices: ['HTML', 'CSS', 'JavaScript', 'Python', 'AWS', 'C']
 },
 {
     type: 'list',
     name: 'contact',
-    choices: ['e-mail', 'cell', 'linkedin'] 
-
+    message: 'Best Point of Contact',
+    choices: ['e-mail', 'cell', 'linkedin'],
 },
 {
-    type: 'input',
-    name: 'description',
-    message: 'Project Description'
-}
+    type: 'list',
+    name: 'license',
+    message: 'License',
+    choices: ['MIT', 'ISC', 'GNUPLv3', 'Other'], 
+    filter(val) {
+        return val.toLowerCase();
+    }
+ }
 ]
+// query function
+async function runQuery() {
+    return inquirer.prompt(questions)
+    .then((answers) => {
+        console.log(answers)
+        return answers
+})
+    .catch((error) => {
+    console.log(errors)
+})
+}
+runQuery()
