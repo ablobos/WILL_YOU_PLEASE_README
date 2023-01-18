@@ -1,5 +1,7 @@
 const inquirer = require('inquirer') 
+const fs = require('fs')
 const MarkDown = require('./col/READMEGen.js')
+
 
 console.log('READMEGen is running fine')
 
@@ -63,15 +65,20 @@ const questions = [
  }
 ]
 // query function
-async function runQuery() {
+function runQuery() {
     return inquirer.prompt(questions)
     .then((answers) => {
         const mark = MarkDown.generateReadme(answers)
-        console.log(mark)
-        return answers
+      fs.writeFile('README.md', mark, function(err) { 
+        if(err){
+            console.log('Could not save file', err)
+        } else {
+            console.log('Success: a new README.md file has been saved inside the current folder')
+        }
+      })
 })
     .catch((error) => {
-    console.log(errors)
+      console.log(errors)
 })
 }
 runQuery()

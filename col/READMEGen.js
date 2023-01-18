@@ -1,34 +1,34 @@
 class MarkDown {
     static generateReadme(answers){
             return `
-        # ${answers.title}
+# ${answers.title}
 
-        ## Table of Contents 
-        - [Project description](#Description)
-        - [Usage](#Usage)
-        - [Contributing](#Contributing)
-        - [Installation](#Installation)
-        - [Questions](#Questions)
-        - [License](#License)
+## Table of Contents 
+- [Project description](#Description)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [Installation](#Installation)
+- [Questions](#Questions)
+- [License](#License)
 
-        ## Description
-        ${answers.description}
+## Description
+${answers.description}
 
-        ## Usage
-        ${answers.usage}
+## Usage
+${answers.usage}
 
-        ## Installation
-        ${answers.installation}
+## Installation
+${answers.installation}
 
-        ## Contributing
-        ${answers.contributing}
+## Contributing
+${answers.contributing}
 
-        ## Questions
-        ${answers.email}
-        ${answers.github}
+## Questions
+${answers.email}
+${answers.github}
 
-        ## License
-        ${answers.license}
+## License
+${answers.license}
         `
     }
 }
