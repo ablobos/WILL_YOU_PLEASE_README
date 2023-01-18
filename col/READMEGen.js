@@ -1,5 +1,5 @@
 class MarkDown {
-    static generateReadme(answeres){
+    static generateReadme(answers){
             return `
         # ${answers.title}
 
@@ -15,21 +15,22 @@ class MarkDown {
         ${answers.description}
 
         ## Usage
-        ${answeres.usage}
+        ${answers.usage}
 
         ## Installation
-        ${answeres.installation}
+        ${answers.installation}
 
         ## Contributing
-        ${answeres.contributing}
+        ${answers.contributing}
 
         ## Questions
-        ${answeres.email}
-        ${answeres.github}
+        ${answers.email}
+        ${answers.github}
 
         ## License
-        ${answeres.license}
+        ${answers.license}
         `
     }
+}
 
-    module.exports = Markdown
+    module.exports = MarkDown

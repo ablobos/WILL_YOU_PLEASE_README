@@ -1,4 +1,5 @@
 const inquirer = require('inquirer') 
+const MarkDown = require('./col/READMEGen.js')
 
 console.log('READMEGen is running fine')
 
@@ -65,7 +66,8 @@ const questions = [
 async function runQuery() {
     return inquirer.prompt(questions)
     .then((answers) => {
-        console.log(answers)
+        const mark = MarkDown.generateReadme(answers)
+        console.log(mark)
         return answers
 })
     .catch((error) => {
