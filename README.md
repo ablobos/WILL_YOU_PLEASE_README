@@ -1,7 +1,7 @@
 
-# README GEN w/NODE
+# README GEN CREATOR
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Table of Contents 
 - [Project description](#Description)
@@ -12,13 +12,13 @@
 - [License](#License)
 
 ## Description
-Create a README file with ease by following the questions.
+THIS PROJECT IS TO CREATE A NEAT README FILE WHILE USING NODE JS AND INQUIRER
 
 ## Usage
-Follow the instructions
+THE USAGE IS AS FOLLOWs:
 
 ## Installation
-Watch the video
+THE INSTALLATION IS SIMPLE AND READILY AVAILABLE
 
 ## Contributing
 undefined
@@ -28,5 +28,5 @@ undefined
 undefined
 
 ## License
-Licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license
+Licensed under the [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0) license
         
