@@ -58,7 +58,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'License',
-    choices: ['MIT', 'ISC', 'GNUPLv3', 'Other'], 
+    choices: ['MIT', 'Mozilla', 'IBM', 'Apache'], 
     filter(val) {
         return val.toLowerCase();
     }
@@ -69,16 +69,16 @@ function runQuery() {
     return inquirer.prompt(questions)
     .then((answers) => {
         const mark = MarkDown.generateReadme(answers)
-      fs.writeFile('README.md', mark, function(err) { 
-        if(err){
+      fs.writeFile('README.md', mark, function (err) { 
+        if (err) {
             console.log('Could not save file', err)
         } else {
-            console.log('Success: a new README.md file has been saved inside the current folder')
+            console.log('Success: a new README.md file has been saved inside the current folder!')
         }
       })
 })
     .catch((error) => {
-      console.log(errors)
+      console.log(error)
 })
 }
 runQuery()

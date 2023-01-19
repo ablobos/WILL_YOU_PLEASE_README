@@ -1,5 +1,7 @@
 
-# 
+# README GEN w/NODE
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents 
 - [Project description](#Description)
@@ -10,13 +12,13 @@
 - [License](#License)
 
 ## Description
-
+Create a README file with ease by following the questions.
 
 ## Usage
-
+Follow the instructions
 
 ## Installation
-
+Watch the video
 
 ## Contributing
 undefined
@@ -26,5 +28,5 @@ undefined
 undefined
 
 ## License
-mit
+Licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license
         
