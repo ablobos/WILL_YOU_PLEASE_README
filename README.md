@@ -48,7 +48,9 @@ THEN I am taken to the corresponding section of the README
 
 ## Installation
 Clone Repo and pull latest version of the repo>Run npm install to install inquirer>use "node app.js" as a command in your terminal to activate
+
 Video: https://drive.google.com/file/d/1mwfaRiZli3KTOyNom9wcYnOedrZ_p8mx/view 
+Video Alternate: Video is integrated into repo and can be viewed by VS Code or ATOM
 
 ## Contributing
 NODE, JS, YOUTUBE, SCREENCASTIFY, COLUMBIA UNIVERSITY
