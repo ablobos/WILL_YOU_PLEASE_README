@@ -34,7 +34,7 @@ const questions = [
 },
 {
     type: 'input',
-    name: 'contribution',
+    name: 'contributing',
     message: 'Contribution Info'
 },
 {
@@ -50,13 +50,13 @@ const questions = [
 },
 {
     type: 'input',
-    name: 'questions',
-    message: 'Insert email address',
+    name: 'email',
+    message: 'Insert email address'
 },
 {
     type: 'input',
     name: 'github',
-    message: 'Insert github username',
+    message: 'Insert github username'
 },
 {
     type: 'list',
