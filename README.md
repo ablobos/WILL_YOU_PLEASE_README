@@ -48,7 +48,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Installation
 Clone Repo and pull latest version of the repo>Run npm install to install inquirer>use "node app.js" as a command in your terminal to activate
-
+Video: https://drive.google.com/file/d/1mwfaRiZli3KTOyNom9wcYnOedrZ_p8mx/view 
 ## Contributing
 NODE, JS, YOUTUBE, SCREENCASTIFY, COLUMBIA UNIVERSITY
 
