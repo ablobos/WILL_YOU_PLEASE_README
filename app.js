@@ -43,20 +43,20 @@ const questions = [
     message: 'Test Instructions'
 },
 {
-        type: 'checkbox',
-        name: 'developer languages',
-        message: 'Which language are you most familiar with?',
-        choices: ['HTML', 'CSS', 'JavaScript', 'Python', 'AWS', 'C']
+    type: 'checkbox',
+    name: 'developer languages',
+    message: 'Which language are you most familiar with?',
+    choices: ['HTML', 'CSS', 'JavaScript', 'Python', 'AWS', 'C']
 },
 {
     type: 'input',
     name: 'questions',
-    message: 'Insert Email Address',
+    message: 'Insert email address',
 },
 {
     type: 'input',
-    name: 'questions',
-    message: 'Insert Github Username',
+    name: 'github',
+    message: 'Insert github username',
 },
 {
     type: 'list',
