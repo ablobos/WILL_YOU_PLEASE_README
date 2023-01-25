@@ -49,10 +49,14 @@ const questions = [
         choices: ['HTML', 'CSS', 'JavaScript', 'Python', 'AWS', 'C']
 },
 {
-    type: 'list',
-    name: 'contact',
-    message: 'Best Point of Contact',
-    choices: ['e-mail', 'cell', 'linkedin'],
+    type: 'input',
+    name: 'questions',
+    message: 'Insert Email Address',
+},
+{
+    type: 'input',
+    name: 'questions',
+    message: 'Insert Github Username',
 },
 {
     type: 'list',
