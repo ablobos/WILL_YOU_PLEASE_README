@@ -1,5 +1,5 @@
 
-# qe;krvjne;vj
+# README GENERATOR WITH JS
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -12,20 +12,20 @@
 - [License](#License)
 
 ## Description
-e;kvj;ekvj 
+THIS PROJECT IS TO CREATE A NEAT README FILE WHILE USING NODE JS AND INQUIRER.
 
 ## Usage
-fe'lev44
+this portion will be edited and detailed during editing showcasing
 
 ## Installation
-ew'fvne'lknv4
+Clone Repo and pull latest version of the repo>Run npm install to install inquirer>use "node app.js" as a command in your terminal to activate
 
 ## Contributing
-ew
+NODE, JS, YOUTUBE, SCREENCASTIFY, COLUMBIA UNIVERSITY
 
 ## Questions
-kekele
-ek
+ablobos@outlook.com
+https://github.com/ablobos
 
 ## License
 Licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license
